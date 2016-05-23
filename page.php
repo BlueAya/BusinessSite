@@ -15,8 +15,7 @@
         } //end if
       ?>
       <!-- End Loop -->
-
       </div>
   </section>
-
+<!-- End Section Container -->
 <?php get_footer(); ?>
