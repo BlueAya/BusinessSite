@@ -12,5 +12,5 @@
     <!-- End Section Container -->
 
     <!-- Begin Footer -->
-    <?php get_footer(); ?>
+    <?php get_footer(); ?> 
 <!-- End Footer -->
