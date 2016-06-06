@@ -11,11 +11,6 @@ Text Domain: angelo_maramara_blank_template
 @import url("styles/normalize.css");
 @import url("styles/skeleton.css");
 
-*{
-    color: #000000;
-    font-size: 14px;
-    line-height: 1.5em;
-}
 
 html, body {
     color: #000000;
