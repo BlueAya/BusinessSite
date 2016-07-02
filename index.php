@@ -30,7 +30,7 @@
               <!-- End Loop -->
       </div>
       <div class="four columns">
-          <h3>Widgets Area</h3>
+          <?php dynamic_sidebar('front-sidebar-widget'); ?>
       </div>
     </section>
     <!-- End Section Container -->
