@@ -4,7 +4,7 @@
 
     <!-- Begin Section Container -->
     <section class="row">
-      <div class="twelve columns">
+      <div class="eight columns">
           <!-- Begin Loop -->
           <?php
             if ( have_posts() ) {
@@ -24,6 +24,9 @@
             } //end if
           ?>
           <!-- End Loop -->
+      </div>
+      <div class="four columns">
+          <h3>Widgets Area</h3>
       </div>
     </section>
     <!-- End Section Container -->

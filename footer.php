@@ -1,15 +1,15 @@
-  <footer class="row">
-    <div class="four columns">
-      <?php dynamic_sidebar('footer-one'); ?>
+<footer class="row">
+    <div class="eight columns">
+        <h3>Left Column</h3>
     </div>
     <div class="four columns">
-      <?php dynamic_sidebar('footer-two'); ?>
+        <h3>Right Column</h3>
     </div>
-    <div class="four columns">
-      <?php dynamic_sidebar('footer-three'); ?>
-    </div>
-  </footer>
+
+</footer>
+
+
 </div> <!-- End Container -->
-<?php wp_footer(); ?>
+  <?php wp_footer(); ?>
 </body>
 </html>
