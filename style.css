@@ -53,7 +53,8 @@ a {
 
 .blank-menu-header {
     text-align: left;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .blank-menu-header ul {
     margin: 0;
@@ -67,10 +68,40 @@ a {
 .blank-menu-header ul li a {
     text-decoration:none;
     margin: 4px;
-    padding: 5px 0px 5px 40px;
+    padding: 0 20px 0 0;
     font-weight: 300;
     font-size: 1.1rem;
+    text-transform: uppercase;
 }
 .blank-menu-header ul li a:hover {
     color: #cccccc;
+}
+
+.current-menu-item a {
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+/* Header */
+h1.site-title {
+    font-size: 2.7em;
+    padding: 0;
+    margin: 30px 0 0;
+}
+
+h1.site-title a {
+    color: #112b80;
+}
+
+h2.sub-title {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Index */
+
+.index-thumbnail img {
+  border-radius: 50%;
 }

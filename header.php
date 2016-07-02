@@ -11,10 +11,10 @@
   <div class="container"> <!-- Begin Container -->
     <header class="row">
       <div class="eight columns">
-        <h1><a href="<?php $url = home_url('/'); echo $url;?>">
+        <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url;?>">
           <?php bloginfo('name'); ?>
         </a></h1>
-        <h2><?php bloginfo('description'); ?></h2>
+        <h2 class="sub-title"><?php bloginfo('description'); ?></h2>
       </div>
       <div class="four columns">
         <h3>Search Bar</h3>
