@@ -8,20 +8,18 @@
     <?php bloginfo('stylesheet_url'); ?>" />
 </head>
 <body>
-  <div class="container"> <!-- Begin Container -->
+  <div class="container-fluid"> <!-- Begin Container -->
     <header class="row">
-      <div class="eight columns">
+      <div class="col-xs-12">
         <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url;?>">
           <?php bloginfo('name'); ?>
         </a></h1>
         <h2 class="sub-title"><?php bloginfo('description'); ?></h2>
       </div>
-      <div class="four columns">
-        <h3>Search Bar</h3>
-      </div>
+
     </header>
-    <div class="row">
-      <div class="twelve columns">
+    <div id="nav" class="container-fluid">
+      <div class="col-lg-12">
         <?php
             wp_nav_menu(array(
               'sort_column' => 'menu_order',
