@@ -3,6 +3,7 @@
 <!-- End Header -->
 
     <!-- Begin Section Container -->
+    <button class="btn btn-default" type="button" name="button">Hello this is a test</button>
     <section class="row">
       <div class="eight columns">
           <!-- Begin Loop -->

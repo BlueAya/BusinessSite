@@ -9,7 +9,9 @@ Text Domain: BusinessSite
 */
 
 @import url("styles/normalize.css");
-@import url("styles/skeleton.css");
+/*@import url("styles/skeleton.css");*/
+@import url("styles/bootstrap.min.css");
+
 
 
 html, body {
