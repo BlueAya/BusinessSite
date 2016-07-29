@@ -19,6 +19,7 @@ html, body {
     color: #000000;
     font-size: 14px;
     line-height: 1.5em;
+    font-family: 'Nunito', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,7 +48,7 @@ h5 {
 }
 
 a {
-  color: red;
+  /*color: red;*/
   font-weight: 700;
   text-decoration: none;
 }
@@ -59,6 +60,62 @@ a {
 .full-block {
     padding: 0;
 }
+
+/* Header */
+
+header {
+    background: #1F2124;
+}
+
+#logo {
+    display: inline-block;
+    margin-left: 2em;
+    padding: 0.5em;
+}
+
+.site-title {
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.site-title a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.addressblock {
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+.address {
+    color: white;
+}
+
+.address2 {
+    display: inline-block;
+    margin-left: 1.3em;
+}
+
+.addglyph {
+    display: inline-block;
+    margin-right: 0.3em;
+}
+
+.appointment {
+    display: inline-block;
+}
+
+#appointmentbtn {
+    background: #F68657;
+    border: none;
+    color: #ffffff;
+    margin-top: 3.5em;
+}
 /*--- Menu --- */
 
 #myNavbar {
@@ -67,6 +124,7 @@ a {
 
 .navbar {
     border: none;
+    margin: 0;
 }
 
 .navbar-nav {
@@ -156,4 +214,9 @@ h2.sub-title {
 
 .index-thumbnail img {
   border-radius: 50%;
+}
+
+.glyphicon-asterisk {
+    font-size: 0.7em;
+    margin-right: 0.1em;
 }

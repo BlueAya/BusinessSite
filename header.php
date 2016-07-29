@@ -10,12 +10,29 @@
 <body>
   <div class="container-fluid"> <!-- Begin Container -->
     <header class="container-fluid">
-      <div class="col-xs-12">
+      <div class="col-xs-12 col-sm-7">
+        <img id="logo" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/img/Logolight.png" width="120px" height="120px" alt="Logo" />
         <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url;?>">Slick's Auto Shop
           <?php //bloginfo('name'); ?>
         </a></h1>
         <!-- <h2 class="sub-title"><?php bloginfo('description'); ?></h2> -->
       </div>
+
+      <div class="addressblock col-sm-2">
+          <p class="address address1">
+            <span class="addglyph glyphicon glyphicon-map-marker" style="color: #F68657"></span>5555 Circle Loop
+          </p>
+          <p class="address address2">
+            Orlando, FL 55555
+          </p>
+          <p class="address address3">
+            <span class="addglyph glyphicon glyphicon-earphone" style="color:#F68657"></span>555-555-5555
+          </p>
+      </div>
+      <div class="appointment col-sm-3">
+        <button id="appointmentbtn" class="btn btn-default">Make an Appointment</button>
+      </div>
+
 
     </header>
     <!-- <div id="nav" class="container-fluid"> -->
