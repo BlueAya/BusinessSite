@@ -1,4 +1,6 @@
-<footer class="row">
+<footer class="container-fluid">
+    555 Circle Loop | Orlando, FL 555555 | 555-555-5555
+
     <div class="eight columns">
         <!-- <h3>Left Column</h3> -->
         <?php dynamic_sidebar('footer-left-widget') ?>

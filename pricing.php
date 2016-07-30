@@ -29,7 +29,7 @@ Template Name: Pricing
 
         <!-- 2nd Row of Pricing Images -->
 
-        <div id="secondrow" class="row">
+        <div id="secondrow" class="pricingmargin row">
             <div class="image col-sm-4">
                 <h3>Tires</h3>
                 <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/img/tire.png" alt="Tire" />

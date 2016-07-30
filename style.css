@@ -53,6 +53,11 @@ a {
   text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -267,6 +272,16 @@ h2.sub-title {
 
 /* Index */
 
+.indexmargin,
+.aboutmargin,
+.pricingmargin {
+    margin-bottom: 5em;
+}
+
+.smallheader {
+    font-size: 1.5rem;
+}
+
 .index-thumbnail img {
   border-radius: 50%;
 }
@@ -439,4 +454,12 @@ p.contactpara {
     text-align: left;
     display: table-cell;
     min-width: 300px !important;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    background: #1F2124;
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
 }

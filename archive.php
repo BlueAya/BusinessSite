@@ -3,8 +3,8 @@
 
 get_header(); ?>
 
-<div class="row">
-    <div class="twelve columns">
+<div class="container-fluid">
+    <div class="container">
         <h2>Archives</h2>
         <?php if ( have_posts() ) :
             // The Loop
@@ -18,8 +18,8 @@ get_header(); ?>
         <?php endif; ?>
     </div>
 </div>
-<div class="row">
-    <div class="twelve columns">
+<div class="container-fluid">
+    <div class="container">
         <h2>Archives by Month:</h2>
         <ul>
             <?php wp_get_archives('type=monthly'); ?>

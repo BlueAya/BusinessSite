@@ -34,7 +34,7 @@
           </div>
       </nav>
       <div class="logoblock col-xs-12 col-sm-7">
-        <img id="logo" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/img/Logolight.png" width="120px" height="120px" alt="Logo" />
+        <a href="<?php $url = home_url('/'); echo $url;?>"><img id="logo" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/img/Logolight.png" width="120px" height="120px" alt="Logo" /></a>
         <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url;?>">Slick's Auto Shop
           <?php //bloginfo('name'); ?>
         </a></h1>
@@ -54,7 +54,7 @@
           </p>
       </div>
       <div class="appointment col-sm-3">
-        <button id="appointmentbtn" class="btn btn-default">Make an Appointment</button>
+        <a href="http://www.totemdesigns.net/WIEfinal/contact/"><button id="appointmentbtn" class="btn btn-default">Make an Appointment</button></a>
       </div>
 
 

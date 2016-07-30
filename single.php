@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <!-- Begin Section Container -->
-<section class="row">
-  <div class="twelve columns">
+<section class="container-fluid">
+  <div class="container">
       <!-- Begin Loop -->
       <?php
         if ( have_posts() ) {
@@ -14,7 +14,7 @@
                 <?php the_post_thumbnail('large'); ?>
               </div>
               <?php } ?>
-              
+
               <h2><?php the_title(); ?></h2>
               <?php the_content(); ?>
             <?php
