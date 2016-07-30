@@ -59,9 +59,9 @@
                   } //end if
                 ?>
                 <!-- End Loop -->
-      <div>
+      <!-- <div>
           <?php dynamic_sidebar('front-sidebar-widget'); ?>
-      </div>
+      </div> -->
     </div class="container">
     <!-- End Section Container -->
 

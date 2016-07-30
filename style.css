@@ -213,13 +213,13 @@ header {
 }
 .blank-menu-header ul li a:hover {
     background: #F68657;
-    padding-top: 0.3em;
+    padding-top: 0.2em;
     padding-bottom: 0.4em;
 }
 
 .current-menu-item a {
     background: #F68657;
-    padding-top: 0.3em;
+    padding-top: 0.2em;
     padding-bottom: 0.4em;
 }
 
@@ -240,6 +240,10 @@ header {
         background: #F68657;
         padding-top: 0;
         padding-bottom: 0;
+    }
+
+    .navbar-form {
+        margin-left: 3em !important;
     }
 }
 

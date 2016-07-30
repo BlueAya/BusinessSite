@@ -92,5 +92,9 @@
                             <?php //dynamic_sidebar('front-sidebar-widget'); ?>
                       </ul>
                 </div>
+                <div class="navbar-form" style="margin-left: 3em">
+                    <?php dynamic_sidebar('front-sidebar-widget'); ?>
+
+                </div>
           </div>
       </nav>
