@@ -14,6 +14,15 @@
 </div> <!-- End Container -->
   <?php wp_footer(); ?>
   <script src="<?php echo esc_url( get_template_directory_uri() . '/js/jquery-3.1.0.min.js' ); ?>"></script>
+  <script type="text/javascript">
+      $( ".imghover" ).hover(
+          function() {
+              $(".hidden").removeClass("hidden").addClass("textover" );
+              }, function() {
+              $( ".textover" ).removeClass( "textover" ).addClass("hidden");
+          }
+      );
+  </script>
   <script src="<?php echo esc_url( get_template_directory_uri() . '/js/bootstrap.min.js' ); ?>"></script>
 </body>
 </html>

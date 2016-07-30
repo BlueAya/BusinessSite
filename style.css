@@ -314,3 +314,47 @@ h2.sub-title {
   		display:block !important;
 	}
 }
+
+/* About Page */
+
+#abouttitle {
+    background-color: #1F2124;
+    color: #ffffff;
+    margin: 0;
+    padding: 1em 0 1em 1.6em;
+}
+
+.aboutpara {
+    margin-top: 2em;
+}
+
+.image {
+    position: relative;
+}
+
+.textover {
+    position: absolute;
+    top: 150px;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #ffffff;
+    background: #F68657;
+    opacity: 0.9;
+}
+
+@media all and (max-width: 875px) {
+    #abouttitle {
+      display: block;
+      padding: 0;
+      text-align: center;
+      background-color: #92E5FF;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+    }
+}
+
+/* Pricing */
+
+#firstpricingrow {
+    margin-top: 2em;
+}
