@@ -10,11 +10,35 @@
 <body>
   <div class="container-fluid"> <!-- Begin Container -->
     <header class="container-fluid">
-      <div class="col-xs-12 col-sm-7">
+      <nav id="mobilenav" class="navbar navbar-default">
+          <div class="container-fluid">
+                <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <!-- <a class="navbar-brand" href="#">Slick's Auto Shop</a> -->
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav">
+                        <?php
+                            wp_nav_menu(array(
+                              'sort_column' => 'menu_order',
+                              'container_class' => 'blank-menu-header'
+                            ));
+                        ?>
+                            <?php //dynamic_sidebar('front-sidebar-widget'); ?>
+                      </ul>
+                </div>
+          </div>
+      </nav>
+      <div class="logoblock col-xs-12 col-sm-7">
         <img id="logo" class="img-responsive" src="<?php bloginfo('template_directory'); ?>/img/Logolight.png" width="120px" height="120px" alt="Logo" />
         <h1 class="site-title"><a href="<?php $url = home_url('/'); echo $url;?>">Slick's Auto Shop
           <?php //bloginfo('name'); ?>
         </a></h1>
+        <h1 id="smscreentitle">Slick's Auto Shop</h1>
         <!-- <h2 class="sub-title"><?php bloginfo('description'); ?></h2> -->
       </div>
 
@@ -47,7 +71,7 @@
 
     <!-- </div> -->
 
-      <nav class="navbar navbar-default">
+      <nav id="desktopnav" class="navbar navbar-default">
           <div class="container-fluid">
                 <div class="navbar-header">
                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
