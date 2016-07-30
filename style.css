@@ -355,6 +355,7 @@ h2.sub-title {
 
 /* Pricing */
 
-#firstpricingrow {
+.firstpricingrow,
+#secondrow {
     margin-top: 2em;
 }
